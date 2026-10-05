@@ -31,8 +31,8 @@ You do **not** need to write any code manually. You will use an **Agentic AI** (
 | S5 | Jyotiraditya | Pytest test suite + requirements.txt |
 | S6 | Atharv | .gitignore + Git branching strategy |
 | S7 | Omkar | Jenkins CI/CD pipeline (Jenkinsfile) |
-| S8 | Tanishq | Docker containerization (Dockerfile) |
-| S9 | Siddhik | Kubernetes manifests (deployment + service) |
+| S8 | Siddhik | Docker containerization (Dockerfile) |
+| S9 | Tanishq | Kubernetes manifests (deployment + service) |
 | S10 | Rushikesh | Final README.md documentation |
 
 ---
@@ -106,7 +106,7 @@ API Base URL (local): http://localhost:8000
       - Title: Pet Adoption & Management System — DevOps Mini Project
       - Purpose: Describe the project goal (build a pet adoption REST API using full DevOps pipeline)
       - Team Table with columns: Role ID | Name | Role | Responsibility | Technologies
-        Fill in all 10 members: Neal(S1), Sagar(S2), Yash(S3), Harshwardhan(S4), Jyotiraditya(S5), Atharv(S6), Omkar(S7), Tanishq(S8), Siddhik(S9), Rushikesh(S10)
+        Fill in all 10 members: Neal(S1), Sagar(S2), Yash(S3), Harshwardhan(S4), Jyotiraditya(S5), Atharv(S6), Omkar(S7), Siddhik(S8), Tanishq(S9), Rushikesh(S10)
       - GitFlow Strategy section: describe main, develop, and feature branch workflow
 
       File 2 — docs/Project_Architecture.md:
@@ -297,7 +297,7 @@ API Base URL (local): http://localhost:8000
     </instructions>
   </role>
 
-  <role id="S8" name="Tanishq">
+  <role id="S8" name="Siddhik">
     <task>Docker Engineer — Containerization</task>
     <files_to_create>
       1. Dockerfile
@@ -324,7 +324,7 @@ API Base URL (local): http://localhost:8000
     </instructions>
   </role>
 
-  <role id="S9" name="Siddhik">
+  <role id="S9" name="Tanishq">
     <task>Kubernetes Engineer — Orchestration Manifests</task>
     <files_to_create>
       1. k8s/deployment.yaml
