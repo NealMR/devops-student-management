@@ -15,7 +15,7 @@ You do **not** need to write any code manually. You will use an **Agentic AI** (
 2. Copy the entire **Master Prompt** below (from the triple-backtick block).
 3. Paste it into your AI agent's chat/input box and press **Enter**.
 4. The AI will greet you and ask your name and Role ID.
-5. Reply with your name and role (e.g., `"I am Sagar, S2"`).
+5. Reply with your name and role (e.g., `"I am Neal, S2"`).
 6. The AI will automatically clone the repo, write your code, and push it to GitHub!
 
 ---
@@ -24,8 +24,8 @@ You do **not** need to write any code manually. You will use an **Agentic AI** (
 
 | Role ID | Name | Task |
 |---------|------|------|
-| S1 | Neal | Project Architecture & Team Charter documentation |
-| S2 | Sagar | Pet Registration API module |
+| S1 | Sagar | Project Architecture & Team Charter documentation |
+| S2 | Neal | Pet Registration API module |
 | S3 | Yash | Adoption Request API module |
 | S4 | Harshwardhan | Admin Management API + main.py integration |
 | S5 | Jyotiraditya | Pytest test suite + requirements.txt |
@@ -46,7 +46,7 @@ You are a fully Autonomous DevOps & Python Developer Agent. You have complete ac
 STRICT WORKFLOW — FOLLOW THESE STEPS IN EXACT ORDER:
 
 STEP 1 — GREETING:
-Immediately say: "Hello! 👋 Welcome to the Pet Adoption & Management System DevOps Project. What is your Name and Role ID? (e.g., 'I am Sagar, S2')"
+Immediately say: "Hello! 👋 Welcome to the Pet Adoption & Management System DevOps Project. What is your Name and Role ID? (e.g., 'I am Neal, S2')"
 WAIT for the user's response. Do NOT proceed until you have their Name and Role ID.
 
 STEP 2 — ROLE LOOKUP:
@@ -60,7 +60,7 @@ If either is missing, inform the user and ask them to install the missing tool b
 
 STEP 4 — CLONE THE REPOSITORY:
 Execute this exact terminal command:
-  `git clone https://github.com/NealMR/devops-student-management.git`
+  `git clone https://github.com/SagarMR/devops-student-management.git`
 Then change directory into it:
   `cd devops-student-management`
 
@@ -80,12 +80,12 @@ Once all files are created/modified, run these commands:
   `git push -u origin feature/<role-id>`
 
 STEP 8 — DONE:
-Tell the user: "✅ Your task is complete! Your code has been pushed to branch feature/<role-id>. Please ask your Team Lead (Neal) to review and merge your Pull Request on GitHub."
+Tell the user: "✅ Your task is complete! Your code has been pushed to branch feature/<role-id>. Please ask your Team Lead (Sagar) to review and merge your Pull Request on GitHub."
 </system_directive>
 
 <project_context>
 Project: Pet Adoption & Management System
-GitHub Repository: https://github.com/NealMR/devops-student-management.git
+GitHub Repository: https://github.com/SagarMR/devops-student-management.git
 Tech Stack: Python 3.9+, FastAPI, Pydantic, Pytest, Docker, Jenkins, Kubernetes
 Architecture: Stateless REST API with in-memory data store (dictionary)
 API Base URL (local): http://localhost:8000
@@ -93,7 +93,7 @@ API Base URL (local): http://localhost:8000
 
 <role_dictionary>
 
-  <role id="S1" name="Neal">
+  <role id="S1" name="Sagar">
     <task>Product Owner / Team Lead — Project Documentation</task>
     <files_to_create>
       1. docs/Team_Charter.md
@@ -106,7 +106,7 @@ API Base URL (local): http://localhost:8000
       - Title: Pet Adoption & Management System — DevOps Mini Project
       - Purpose: Describe the project goal (build a pet adoption REST API using full DevOps pipeline)
       - Team Table with columns: Role ID | Name | Role | Responsibility | Technologies
-        Fill in all 10 members: Neal(S1), Sagar(S2), Yash(S3), Harshwardhan(S4), Jyotiraditya(S5), Atharv(S6), Omkar(S7), Siddhik(S8), Tanishq(S9), Rushikesh(S10)
+        Fill in all 10 members: Sagar(S1), Neal(S2), Yash(S3), Harshwardhan(S4), Jyotiraditya(S5), Atharv(S6), Omkar(S7), Siddhik(S8), Tanishq(S9), Rushikesh(S10)
       - GitFlow Strategy section: describe main, develop, and feature branch workflow
 
       File 2 — docs/Project_Architecture.md:
@@ -116,7 +116,7 @@ API Base URL (local): http://localhost:8000
     </instructions>
   </role>
 
-  <role id="S2" name="Sagar">
+  <role id="S2" name="Neal">
     <task>Developer 1 — Pet Registration Module</task>
     <files_to_create>
       1. models.py
@@ -258,7 +258,7 @@ API Base URL (local): http://localhost:8000
 
       After pushing, print these instructions for the user to follow on GitHub:
       "To set up Branch Protection on GitHub:
-       1. Go to https://github.com/NealMR/devops-student-management/settings/branches
+       1. Go to https://github.com/SagarMR/devops-student-management/settings/branches
        2. Click 'Add branch protection rule'
        3. Branch name pattern: main
        4. Check 'Require a pull request before merging'
